@@ -1,4 +1,5 @@
 name: csv-to-csvw example
+
 on:
   push:
     branches:
@@ -10,3 +11,4 @@ jobs:
     steps: 
     - name: csv-to-csvw action
       uses: GSS-Cogs/csv-to-csvw-action@v0.0.4-alpha
+    
