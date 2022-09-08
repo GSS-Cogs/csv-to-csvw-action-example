@@ -9,4 +9,4 @@ jobs:
     name: Generate CSV-W from csv upload
     steps: 
       - name: Build and Inspect
-        uses: actions/csv-to-csvw action
+        uses: actions/csv-to-csvw-action
