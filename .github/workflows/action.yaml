@@ -1,6 +1,4 @@
 name: csv-to-csvw example
-description: An example action showing how to use the csv-to-csvw action.
-author: Connected Open Government Statistics (COGS)
 on:
   push:
     branches:
