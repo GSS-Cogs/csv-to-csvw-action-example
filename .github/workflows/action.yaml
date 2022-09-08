@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-
+jobs:
   generate_csvw_from_csv_upload:
     name: Generate CSV-W from csv upload
     runs-on: ubuntu-latest
     steps: 
-      - name: Build and inspect
+      - name: Build and Inspect
       - uses: actions/csv-to-csvw action
