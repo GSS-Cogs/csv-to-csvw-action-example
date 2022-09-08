@@ -1,0 +1,13 @@
+name: csv-to-csvw example
+description: An example action showing how to use the csv-to-csvw action.
+on:
+  push:
+    branches:
+      - main
+
+  generate_csvw_from_csv_upload:
+    name: Generate CSV-W from csv upload
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Build and inspect
+      - uses: actions/csv-to-csvw action
