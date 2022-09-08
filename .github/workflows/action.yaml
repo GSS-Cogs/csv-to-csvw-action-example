@@ -17,5 +17,5 @@ jobs:
       # Configurations
       with:
         # Boolean indicating whether the outputs should be published to GitHub Pages (default is false).
-        publish-to-gh-pages: true        
+        publish-to-gh-pages: false        
     
