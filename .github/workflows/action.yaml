@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      
 jobs:
   generate_csvw_from_csv_upload:
     name: Generate CSV-W from csv upload
