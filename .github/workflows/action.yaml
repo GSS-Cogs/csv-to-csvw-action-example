@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - name: csv-to-csvw action
-      uses: GSS-Cogs/csv-to-csvw-action@v0.0.1-alpha
+      uses: GSS-Cogs/csv-to-csvw-action@v0.0.2-alpha
