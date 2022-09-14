@@ -13,10 +13,10 @@ jobs:
     steps:
       - name: csv-to-csvw action
         # csv-to-csvw action path. The latest version is always available at https://github.com/marketplace/actions/csv-to-csvw-action
-        uses: GSS-Cogs/csv-to-csvw-action@v0.0.24-alpha
+        uses: GSS-Cogs/csv-to-csvw-action@v0.0.25-alpha
         # Configurations
         with:
           # Boolean indicating whether the outputs should be commited to the out folder (default is true).
           commit-outputs: true
           # Boolean indicating whether the outputs should be published to GitHub Pages (default is true).
-          publish-to-gh-pages: false
+          publish-to-gh-pages: true
