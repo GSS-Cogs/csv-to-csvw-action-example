@@ -10,7 +10,7 @@ Year,Entrant,Song,Language,Value,Measure,Unit
 1960,Siw Malmkvist,Alla andra får varann,Swedish,1,People on Stage,Number
 1961,Lill-Babs,"April,april",Swedish,14,Final Rank,Unitless
 1961,Lill-Babs,"April,april",Swedish,2,Final Points,Unitless
-1961,Lill-Babs,"April,april",Swedish,1,People on Stage,Number
+1961,Lill-Babs,"April,april",Swedish,1,People on Stage,Number^2
 1962,Inger Berggren,Sol och vår,Swedish,4,Final Points,Unitless
 1962,Inger Berggren,Sol och vår,Swedish,1,People on Stage,Number
 1962,Inger Berggren,Sol och vår,Swedish,7,Final Rank,Unitless
