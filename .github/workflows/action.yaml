@@ -16,7 +16,7 @@ jobs:
         uses: GSS-Cogs/csv-to-csvw-action@v0.0.28-alpha
         # Configurations
         with:
-          # Boolean indicating whether the outputs (i.e. out folder) should be committed to the main branch (default is true).
-          commit-outputs-to-main-branch: true
+          # Boolean indicating whether the outputs (i.e. out folder) should be committed to the current branch (default is true).
+          commit-outputs-to-branch: true
           # Boolean indicating whether the outputs (i.e. out folder) should be published to the gh-pages branch and GitHub Pages (default is true).
           publish-to-gh-pages: true
