@@ -4,6 +4,7 @@ name: csv-to-csvw example
 on:
   push:
     branches:
+      - robons-test-v0.0.30
       - main
 # Workflow action
 jobs:
@@ -13,10 +14,13 @@ jobs:
     steps:
       - name: csv-to-csvw action
         # csv-to-csvw action path. The latest version is always available at https://github.com/marketplace/actions/csv-to-csvw-action
-        uses: GSS-Cogs/csv-to-csvw-action@v0.0.29-alpha
+        uses: GSS-Cogs/csv-to-csvw-action@v0.0.30-rc6
         # Configurations
         with:
           # Boolean indicating whether the outputs (i.e. out folder) should be committed to the current branch (default is true).
           commit-outputs-to-branch: true
           # Boolean indicating whether the outputs (i.e. out folder) should be published to the gh-pages branch and GitHub Pages (default is true).
           publish-to-gh-pages: true
+          paths-to-exclude: |
+            ignore/*
+            ignore/**/*
