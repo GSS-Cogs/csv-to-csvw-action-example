@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+    <h3>CSV-Ws generated are as below. The latest commit id is afafd0f7025ba79e94e03b7cd5b8b90d1340e478.</h3>
+    <div id="files-container"></div>
+    <script type="text/javascript">
+        var html_str = "<ul>";
+        var files = ",./out/folder/folder/csv_with_config/year.csv,./out/folder/folder/csv_with_config/language.csv-metadata.json,./out/folder/folder/csv_with_config/song.csv-metadata.json_inspect_output.txt,./out/folder/folder/csv_with_config/entrant.csv-metadata.json,./out/folder/folder/csv_with_config/language.csv,./out/folder/folder/csv_with_config/csv-with-config.csv,./out/folder/folder/csv_with_config/year.table.json,./out/folder/folder/csv_with_config/csv-with-config.csv-metadata.json,./out/folder/folder/csv_with_config/entrant.csv,./out/folder/folder/csv_with_config/language.csv-metadata.json_inspect_output.txt,./out/folder/folder/csv_with_config/entrant.table.json,./out/folder/folder/csv_with_config/song.csv,./out/folder/folder/csv_with_config/csv-with-config.csv-metadata.json_inspect_output.txt,./out/folder/folder/csv_with_config/year.csv-metadata.json_inspect_output.txt,./out/folder/folder/csv_with_config/language.table.json,./out/folder/folder/csv_with_config/entrant.csv-metadata.json_inspect_output.txt,./out/folder/folder/csv_with_config/song.table.json,./out/folder/folder/csv_with_config/song.csv-metadata.json,./out/folder/folder/csv_with_config/year.csv-metadata.json".split(',');
+        files.shift()
+        files.sort()
+        files.forEach(function(file) {
+        file = file.replace("./","")
+        link = "https://GSS-Cogs.github.io/csv-to-csvw-action-example/"+file
+        html_str += "<li>"+"<a href='"+ link + "'>"+file+"</a></li>";
+        });
+        html_str += "</ul>";
+        document.getElementById("files-container").innerHTML = html_str;
+    </script>
+    </body>
+</html>
