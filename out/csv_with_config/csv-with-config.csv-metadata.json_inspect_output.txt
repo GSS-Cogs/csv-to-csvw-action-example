@@ -12,10 +12,10 @@
         - Landing Pages: None
         - Themes: None
         - Keywords: 
-		-- Eurovision
+		-- Sweden
 		-- Song Contest
 		-- European Broadcasting Union
-		-- Sweden
+		-- Eurovision
         - Contact Point: None
         - Identifier: csv with config
         - Comment: List of Swedish entries to the Eurovision Song Contest since 1958.
@@ -49,7 +49,7 @@ language.csv#code-list        Language        Language
     year.csv#code-list            Year            Year
 
 - The data cube has the following dataset information:
-        - Number of Observations: 175
+        - Number of Observations: 174
         - Number of Duplicates: 0
         - First 10 Observations: 
  Year       Entrant                  Song Language  Value         Measure     Unit
@@ -65,6 +65,7 @@ language.csv#code-list        Language        Language
  1961     lill-babs           april-april  swedish   14.0      final-rank unitless
         - Last 10 Observations: 
  Year           Entrant              Song Language  Value         Measure     Unit
+ 2016             frans   if-i-were-sorry  english  261.0    final-points unitless
  2016             frans   if-i-were-sorry  english    2.0 people-on-stage   number
  2017   robin-bengtsson     i-can-t-go-on  english    5.0      final-rank unitless
  2017   robin-bengtsson     i-can-t-go-on  english  344.0    final-points unitless
@@ -74,13 +75,12 @@ language.csv#code-list        Language        Language
  2018 benjamin-ingrosso     dance-you-off  english    6.0 people-on-stage   number
  2019      john-lundvik too-late-for-love  english  334.0    final-points unitless
  2019      john-lundvik too-late-for-love  english    6.0 people-on-stage   number
- 2019      john-lundvik too-late-for-love  english    5.0      final-rank unitless
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
         Measure     Unit  Count
    final-points unitless     58
-     final-rank unitless     58
+     final-rank unitless     57
 people-on-stage   number     59
         
