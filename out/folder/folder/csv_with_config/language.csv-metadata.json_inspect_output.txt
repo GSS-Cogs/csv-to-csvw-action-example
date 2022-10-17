@@ -4,8 +4,13 @@
 - The code list has the following catalog metadata:
         - Title: Language
         - Label: Language
+<<<<<<< Updated upstream
         - Issued: 2022-10-14T16:20:20.402054
         - Modified: 2022-10-14T16:20:20.402054
+=======
+        - Issued: 2022-10-17T10:31:14.499218
+        - Modified: 2022-10-17T10:31:14.499218
+>>>>>>> Stashed changes
         - License: None
         - Creator: None
         - Publisher: None

@@ -7,8 +7,13 @@
         {
             "@id": "language.csv#csvcubed-build-activity",
             "@type": [
+<<<<<<< Updated upstream
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/prov#Activity"
+=======
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+>>>>>>> Stashed changes
             ],
             "http://www.w3.org/ns/prov#used": [
                 {
@@ -19,6 +24,7 @@
         {
             "@id": "language.csv#code-list",
             "@type": [
+<<<<<<< Updated upstream
                 "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                 "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -31,6 +37,13 @@
                 "http://www.w3.org/ns/dcat#Resource",
 >>>>>>> Stashed changes
                 "http://www.w3.org/ns/prov#Entity"
+=======
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/ns/prov#Entity",
+                "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+>>>>>>> Stashed changes
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
@@ -42,12 +55,16 @@
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.402054"
 =======
                     "@value": "2022-10-17T10:11:48.277419"
 >>>>>>> Stashed changes
 =======
                     "@value": "2022-10-17T10:17:12.618072"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:31:14.499218"
 >>>>>>> Stashed changes
                 }
             ],
@@ -56,12 +73,16 @@
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.402054"
 =======
                     "@value": "2022-10-17T10:11:48.277419"
 >>>>>>> Stashed changes
 =======
                     "@value": "2022-10-17T10:17:12.618072"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:31:14.499218"
 >>>>>>> Stashed changes
                 }
             ],

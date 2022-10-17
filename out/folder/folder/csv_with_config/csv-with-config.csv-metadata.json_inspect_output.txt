@@ -11,7 +11,15 @@
         - Publisher: None
         - Landing Pages: None
         - Themes: None
+<<<<<<< Updated upstream
         - Keywords: None
+=======
+        - Keywords: 
+		-- Song Contest
+		-- European Broadcasting Union
+		-- Eurovision
+		-- Sweden
+>>>>>>> Stashed changes
         - Contact Point: None
         - Identifier: Csv With Config
         - Comment: None
@@ -45,7 +53,11 @@ language.csv#code-list        Language        Language
     year.csv#code-list            Year            Year
 
 - The data cube has the following dataset information:
+<<<<<<< Updated upstream
         - Number of Observations: 177
+=======
+        - Number of Observations: 176
+>>>>>>> Stashed changes
         - Number of Duplicates: 0
         - First 10 Observations: 
  Year       Entrant                  Song Language  Value         Measure     Unit
@@ -61,6 +73,10 @@ language.csv#code-list        Language        Language
  1961     lill-babs           april-april  swedish   14.0      final-rank unitless
         - Last 10 Observations: 
  Year           Entrant              Song Language  Value         Measure     Unit
+<<<<<<< Updated upstream
+=======
+ 2017   robin-bengtsson     i-can-t-go-on  english    5.0      final-rank unitless
+>>>>>>> Stashed changes
  2017   robin-bengtsson     i-can-t-go-on  english  344.0    final-points unitless
  2017   robin-bengtsson     i-can-t-go-on  english    6.0 people-on-stage   number
  2018 benjamin-ingrosso     dance-you-off  english    7.0      final-rank unitless
@@ -70,13 +86,16 @@ language.csv#code-list        Language        Language
  2019      john-lundvik too-late-for-love  english    6.0 people-on-stage   number
  2019      john-lundvik too-late-for-love  english    5.0      final-rank unitless
  2021             tusse            voices  english   14.0      final-rank unitless
+<<<<<<< Updated upstream
  2021             tusse            voices  english  109.0    final-points unitless
+=======
+>>>>>>> Stashed changes
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
         Measure     Unit  Count
-   final-points unitless     59
+   final-points unitless     58
      final-rank unitless     59
 people-on-stage   number     59
         

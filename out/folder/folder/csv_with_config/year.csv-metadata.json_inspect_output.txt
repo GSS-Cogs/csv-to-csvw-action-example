@@ -6,6 +6,7 @@
         - Label: Year
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         - Issued: 2022-10-14T16:20:20.376625
         - Modified: 2022-10-14T16:20:20.376625
 =======
@@ -15,6 +16,10 @@
 =======
         - Issued: 2022-10-17T10:17:12.600685
         - Modified: 2022-10-17T10:17:12.600685
+>>>>>>> Stashed changes
+=======
+        - Issued: 2022-10-17T10:31:14.483440
+        - Modified: 2022-10-17T10:31:14.483440
 >>>>>>> Stashed changes
         - License: None
         - Creator: None
