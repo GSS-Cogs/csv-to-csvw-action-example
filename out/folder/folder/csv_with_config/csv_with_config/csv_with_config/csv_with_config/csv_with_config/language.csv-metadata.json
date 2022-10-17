@@ -7,11 +7,19 @@
         {
             "@id": "language.csv#code-list",
             "@type": [
+<<<<<<< Updated upstream
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                 "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/ns/prov#Entity"
+=======
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/ns/prov#Entity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                "http://www.w3.org/ns/dcat#Resource"
+>>>>>>> Stashed changes
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
@@ -21,13 +29,21 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+<<<<<<< Updated upstream
                     "@value": "2022-10-17T09:56:01.124195"
+=======
+                    "@value": "2022-10-17T10:11:48.277419"
+>>>>>>> Stashed changes
                 }
             ],
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+<<<<<<< Updated upstream
                     "@value": "2022-10-17T09:56:01.124195"
+=======
+                    "@value": "2022-10-17T10:11:48.277419"
+>>>>>>> Stashed changes
                 }
             ],
             "http://purl.org/dc/terms/title": [

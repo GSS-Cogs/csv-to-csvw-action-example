@@ -7,18 +7,18 @@
         {
             "@id": "year.csv#code-list",
             "@type": [
+                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/prov#Entity",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-                "http://www.w3.org/ns/prov#Entity"
 =======
-                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/dcat#Resource",
 >>>>>>> Stashed changes
+                "http://www.w3.org/ns/prov#Entity"
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
@@ -29,9 +29,13 @@
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.376625"
 =======
                     "@value": "2022-10-17T10:11:48.260253"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:17:12.600685"
 >>>>>>> Stashed changes
                 }
             ],
@@ -39,9 +43,13 @@
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.376625"
 =======
                     "@value": "2022-10-17T10:11:48.260253"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:17:12.600685"
 >>>>>>> Stashed changes
                 }
             ],

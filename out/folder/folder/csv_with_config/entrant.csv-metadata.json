@@ -5,6 +5,7 @@
     "tableSchema": "entrant.table.json",
     "rdfs:seeAlso": [
         {
+<<<<<<< Updated upstream
             "@id": "entrant.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -23,14 +24,15 @@
             ]
         },
         {
+=======
+>>>>>>> Stashed changes
             "@id": "entrant.csv#code-list",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/prov#Entity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-                "http://www.w3.org/ns/dcat#Resource"
->>>>>>> Stashed changes
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/ns/prov#Entity"
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
@@ -41,9 +43,13 @@
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.390833"
 =======
                     "@value": "2022-10-17T10:11:48.269871"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:17:12.610273"
 >>>>>>> Stashed changes
                 }
             ],
@@ -51,9 +57,13 @@
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.390833"
 =======
                     "@value": "2022-10-17T10:11:48.269871"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:17:12.610273"
 >>>>>>> Stashed changes
                 }
             ],
@@ -74,7 +84,6 @@
                     "@id": "entrant.csv#csvcubed-build-activity"
                 }
             ]
-<<<<<<< Updated upstream
         },
         {
             "@id": "entrant.csv#csvcubed-build-activity",
@@ -87,8 +96,6 @@
                     "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.1.11"
                 }
             ]
-=======
->>>>>>> Stashed changes
         }
     ]
 }

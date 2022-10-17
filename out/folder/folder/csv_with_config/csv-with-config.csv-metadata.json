@@ -132,6 +132,7 @@
     "rdfs:seeAlso": [
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "@id": "csv-with-config.csv#measure/final-points",
             "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
@@ -153,80 +154,102 @@
         },
         {
             "@id": "csv-with-config.csv#dimension/year",
+=======
+            "@id": "csv-with-config.csv#component/language",
+>>>>>>> Stashed changes
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "csv-with-config.csv#class/year"
-                }
-            ]
-        },
-        {
-            "@id": "csv-with-config.csv#class/language",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "csv-with-config.csv#class/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "csv-with-config.csv#component/people-on-stage",
-            "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "csv-with-config.csv#measure/people-on-stage"
+                    "@id": "csv-with-config.csv#dimension/language"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "csv-with-config.csv#measure/people-on-stage"
+                    "@id": "csv-with-config.csv#dimension/language"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 8
+                    "@value": 4
                 }
             ]
         },
         {
-            "@id": "csv-with-config.csv#class/entrant",
+            "@id": "csv-with-config.csv#structure",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "csv-with-config.csv#component/year"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/song"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/entrant"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/language"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/people-on-stage"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/unit"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/final-rank"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/final-points"
+                },
+                {
+                    "@id": "csv-with-config.csv#component/measure-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "csv-with-config.csv#dimension/year"
+                },
+                {
+                    "@id": "csv-with-config.csv#measure/final-points"
+                },
+                {
+                    "@id": "csv-with-config.csv#measure/people-on-stage"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "csv-with-config.csv#dimension/entrant"
+                },
+                {
+                    "@id": "csv-with-config.csv#measure/final-rank"
+                },
+                {
+                    "@id": "csv-with-config.csv#dimension/song"
+                },
+                {
+                    "@id": "csv-with-config.csv#dimension/language"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
             ]
         },
         {
             "@id": "csv-with-config.csv#component/song",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -245,12 +268,38 @@
             ]
         },
         {
+            "@id": "csv-with-config.csv#dimension/language",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "language.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Language"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "csv-with-config.csv#class/language"
+                }
+            ]
+        },
+        {
             "@id": "csv-with-config.csv#dimension/song",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#CodedProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -271,55 +320,12 @@
             ]
         },
         {
-            "@id": "csv-with-config.csv#measure/people-on-stage",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "People on Stage"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "csv-with-config.csv#component/language",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "csv-with-config.csv#dimension/language"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "csv-with-config.csv#dimension/language"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
             "@id": "csv-with-config.csv#dimension/entrant",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#CodedProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -337,15 +343,10 @@
                 {
                     "@id": "csv-with-config.csv#class/entrant"
                 }
-=======
-            "@id": "csv-with-config.csv#class/language",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
->>>>>>> Stashed changes
             ]
         },
         {
+<<<<<<< Updated upstream
             "@id": "csv-with-config.csv#component/entrant",
             "@type": [
 <<<<<<< Updated upstream
@@ -511,6 +512,8 @@
         },
         {
 <<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
             "@id": "csv-with-config.csv#class/song",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Class",
@@ -518,6 +521,7 @@
             ]
         },
         {
+<<<<<<< Updated upstream
             "@id": "csv-with-config.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/ns/prov#Activity",
@@ -585,65 +589,59 @@
                 },
                 {
                     "@id": "csv-with-config.csv#measure/final-rank"
-                }
-            ]
-        },
-        {
-            "@id": "csv-with-config.csv#measure/final-points",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
->>>>>>> Stashed changes
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-<<<<<<< Updated upstream
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.1.11"
 =======
-                    "@language": "en",
-                    "@value": "Final Points"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "csv-with-config.csv#dimension/entrant",
+            "@id": "csv-with-config.csv#dimension/year",
             "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "entrant.csv#code-list"
+                    "@id": "year.csv#code-list"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Entrant"
+                    "@value": "Year"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "csv-with-config.csv#class/entrant"
+                    "@id": "csv-with-config.csv#class/year"
 >>>>>>> Stashed changes
                 }
             ]
         },
         {
-            "@id": "csv-with-config.csv#component/measure-type",
+            "@id": "csv-with-config.csv#csvcubed-build-activity",
             "@type": [
 <<<<<<< Updated upstream
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+>>>>>>> Stashed changes
+=======
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+>>>>>>> Stashed changes
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.1.11"
+                }
+            ]
+        },
+        {
+            "@id": "csv-with-config.csv#component/final-rank",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
+<<<<<<< Updated upstream
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
 =======
@@ -741,82 +739,71 @@
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "csv-with-config.csv#measure/people-on-stage"
+=======
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "csv-with-config.csv#measure/final-rank"
+>>>>>>> Stashed changes
                 }
             ],
             "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "csv-with-config.csv#measure/people-on-stage"
+                    "@id": "csv-with-config.csv#measure/final-rank"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 8
+                    "@value": 7
                 }
             ]
         },
         {
-            "@id": "csv-with-config.csv#component/song",
+            "@id": "csv-with-config.csv#class/year",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "csv-with-config.csv#dimension/song"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "csv-with-config.csv#dimension/song"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "csv-with-config.csv#measure/final-rank",
             "@type": [
                 "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
                     "@value": "Final Rank"
->>>>>>> Stashed changes
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-<<<<<<< Updated upstream
-                    "@id": "csv-with-config.csv#class/language"
-=======
                     "@id": "http://www.w3.org/2001/XMLSchema#decimal"
->>>>>>> Stashed changes
                 }
             ]
         },
         {
             "@id": "csv-with-config.csv#dataset",
             "@type": [
-<<<<<<< Updated upstream
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/ns/dcat#Resource",
                 "http://purl.org/linked-data/cube#DataSet"
+<<<<<<< Updated upstream
 =======
                 "http://www.w3.org/ns/dcat#Dataset",
                 "http://purl.org/linked-data/cube#DataSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/ns/dcat#Resource"
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             ],
             "http://purl.org/dc/terms/identifier": [
@@ -828,9 +815,13 @@
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.406760"
 =======
                     "@value": "2022-10-17T10:11:48.280480"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:17:12.621257"
 >>>>>>> Stashed changes
                 }
             ],
@@ -838,9 +829,13 @@
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "@value": "2022-10-14T16:20:20.406760"
 =======
                     "@value": "2022-10-17T10:11:48.280480"
+>>>>>>> Stashed changes
+=======
+                    "@value": "2022-10-17T10:17:12.621257"
 >>>>>>> Stashed changes
                 }
             ],
@@ -868,6 +863,7 @@
             ]
         },
         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             "@id": "csv-with-config.csv#structure",
             "@type": [
@@ -943,28 +939,56 @@
             "http://purl.org/linked-data/cube#codeList": [
                 {
                     "@id": "year.csv#code-list"
-                }
+=======
+            "@id": "csv-with-config.csv#class/entrant",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "csv-with-config.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "csv-with-config.csv#class/year"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
 >>>>>>> Stashed changes
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
                 }
             ]
         },
         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             "@id": "csv-with-config.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+=======
+            "@id": "csv-with-config.csv#component/measure-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -983,6 +1007,37 @@
             ]
         },
         {
+            "@id": "csv-with-config.csv#measure/people-on-stage",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+>>>>>>> Stashed changes
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+<<<<<<< Updated upstream
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+=======
+                    "@language": "en",
+                    "@value": "People on Stage"
+>>>>>>> Stashed changes
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+<<<<<<< Updated upstream
             "@id": "csv-with-config.csv#component/final-rank",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
@@ -992,15 +1047,31 @@
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "csv-with-config.csv#measure/final-rank"
+=======
+            "@id": "csv-with-config.csv#component/people-on-stage",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "csv-with-config.csv#measure/people-on-stage"
+>>>>>>> Stashed changes
                 }
             ],
             "http://purl.org/linked-data/cube#measure": [
                 {
+<<<<<<< Updated upstream
                     "@id": "csv-with-config.csv#measure/final-rank"
+=======
+                    "@id": "csv-with-config.csv#measure/people-on-stage"
+>>>>>>> Stashed changes
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
+<<<<<<< Updated upstream
                     "@value": 7
 =======
             "@id": "csv-with-config.csv#class/entrant",
@@ -1033,10 +1104,14 @@
                 {
                     "@id": "csv-with-config.csv#class/song"
 >>>>>>> Stashed changes
+=======
+                    "@value": 8
+>>>>>>> Stashed changes
                 }
             ]
         },
         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             "@id": "csv-with-config.csv#dependency/year",
             "@type": [
@@ -1069,20 +1144,40 @@
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "csv-with-config.csv#dimension/language"
+=======
+            "@id": "csv-with-config.csv#component/entrant",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "csv-with-config.csv#dimension/entrant"
+>>>>>>> Stashed changes
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
+<<<<<<< Updated upstream
                     "@id": "csv-with-config.csv#dimension/language"
+=======
+                    "@id": "csv-with-config.csv#dimension/entrant"
+>>>>>>> Stashed changes
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
+<<<<<<< Updated upstream
                     "@value": 4
+=======
+                    "@value": 2
+>>>>>>> Stashed changes
                 }
             ]
         },
         {
+<<<<<<< Updated upstream
             "@id": "csv-with-config.csv#component/final-rank",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
@@ -1092,25 +1187,99 @@
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "csv-with-config.csv#measure/final-rank"
+=======
+            "@id": "csv-with-config.csv#component/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "csv-with-config.csv#dimension/year"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "csv-with-config.csv#measure/final-rank"
+                    "@id": "csv-with-config.csv#dimension/year"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "csv-with-config.csv#class/language",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "csv-with-config.csv#component/final-points",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "csv-with-config.csv#measure/final-points"
+>>>>>>> Stashed changes
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+<<<<<<< Updated upstream
+                    "@id": "csv-with-config.csv#measure/final-rank"
+=======
+                    "@id": "csv-with-config.csv#measure/final-points"
+>>>>>>> Stashed changes
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+<<<<<<< Updated upstream
                     "@value": 7
+=======
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "csv-with-config.csv#measure/final-points",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Final Points"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+>>>>>>> Stashed changes
                 }
             ]
         },
         {
             "@id": "csv-with-config.csv#dependency/year",
             "@type": [
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
                 "http://rdfs.org/ns/void#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+=======
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+>>>>>>> Stashed changes
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1176,32 +1345,14 @@
         },
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
             "@id": "csv-with-config.csv#unit/number",
             "@type": [
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-=======
-            "@id": "csv-with-config.csv#unit/unitless",
-            "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Unitless"
-                }
-            ]
-        },
-        {
-            "@id": "csv-with-config.csv#unit/number",
-            "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit"
->>>>>>> Stashed changes
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -1214,8 +1365,13 @@
             "@id": "csv-with-config.csv#unit/unitless",
             "@type": [
                 "http://qudt.org/schema/qudt/Unit",
+<<<<<<< Updated upstream
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+=======
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+>>>>>>> Stashed changes
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
