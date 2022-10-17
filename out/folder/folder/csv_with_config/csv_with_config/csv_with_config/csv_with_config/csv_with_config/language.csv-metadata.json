@@ -1,73 +1,58 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "year.csv#code-list",
-    "url": "year.csv",
-    "tableSchema": "year.table.json",
+    "@id": "language.csv#code-list",
+    "url": "language.csv",
+    "tableSchema": "language.table.json",
     "rdfs:seeAlso": [
         {
-            "@id": "year.csv#code-list",
+            "@id": "language.csv#code-list",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/prov#Entity",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-<<<<<<< Updated upstream
-                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                 "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/ns/prov#Entity"
-=======
-                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-                "http://www.w3.org/ns/dcat#Resource"
->>>>>>> Stashed changes
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
-                    "@value": "Year"
+                    "@value": "Language"
                 }
             ],
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-<<<<<<< Updated upstream
-                    "@value": "2022-10-14T16:20:20.376625"
-=======
-                    "@value": "2022-10-17T10:11:48.260253"
->>>>>>> Stashed changes
+                    "@value": "2022-10-17T09:56:01.124195"
                 }
             ],
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-<<<<<<< Updated upstream
-                    "@value": "2022-10-14T16:20:20.376625"
-=======
-                    "@value": "2022-10-17T10:11:48.260253"
->>>>>>> Stashed changes
+                    "@value": "2022-10-17T09:56:01.124195"
                 }
             ],
             "http://purl.org/dc/terms/title": [
                 {
                     "@language": "en",
-                    "@value": "Year"
+                    "@value": "Language"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Year"
+                    "@value": "Language"
                 }
             ],
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
-                    "@id": "year.csv#csvcubed-build-activity"
+                    "@id": "language.csv#csvcubed-build-activity"
                 }
             ]
         },
         {
-            "@id": "year.csv#csvcubed-build-activity",
+            "@id": "language.csv#csvcubed-build-activity",
             "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
             ],
             "http://www.w3.org/ns/prov#used": [
                 {
