@@ -4,8 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Song
         - Label: Song
-        - Issued: 2022-10-17T11:55:41.156578
-        - Modified: 2022-10-17T11:55:41.156578
+        - Issued: 2022-10-17T13:18:28.624423
+        - Modified: 2022-10-17T13:18:28.624423
         - License: None
         - Creator: None
         - Publisher: None
@@ -19,7 +19,7 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 59
+        - Number of Concepts: 58
         - Number of Duplicates: 0
         - First 10 Concepts: 
        Uri Identifier                 Label              Notation  Parent Uri Identifier  Sort Priority  Description
@@ -35,16 +35,16 @@ alla-andra-far-varann Alla andra får varann alla-andra-far-varann              
         dance-you-off         Dance You Off         dance-you-off                    NaN              9          NaN
         - Last 10 Concepts: 
                   Uri Identifier                            Label                         Notation  Parent Uri Identifier  Sort Priority  Description
+                      stjarnorna                       Stjärnorna                       stjarnorna                    NaN             48          NaN
           take-me-to-your-heaven           Take Me to Your Heaven           take-me-to-your-heaven                    NaN             49          NaN
                the-worrying-kind                The Worrying Kind                the-worrying-kind                    NaN             50          NaN
                  this-is-my-life                  This Is My Life                  this-is-my-life                    NaN             51          NaN
-               too-late-for-love                Too Late for Love                too-late-for-love                    NaN             52          NaN
-                            undo                             Undo                             undo                    NaN             53          NaN
-                     vita-vidder                      Vita vidder                      vita-vidder                    NaN             54          NaN
-                        waterloo                         Waterloo                         waterloo                    NaN             55          NaN
-when-spirits-are-calling-my-name When Spirits Are Calling My Name when-spirits-are-calling-my-name                    NaN             56          NaN
-                             you                              You                              you                    NaN             57          NaN
-                   you-re-summer                    You're Summer                    you-re-summer                    NaN             58          NaN
+                            undo                             Undo                             undo                    NaN             52          NaN
+                     vita-vidder                      Vita vidder                      vita-vidder                    NaN             53          NaN
+                        waterloo                         Waterloo                         waterloo                    NaN             54          NaN
+when-spirits-are-calling-my-name When Spirits Are Calling My Name when-spirits-are-calling-my-name                    NaN             55          NaN
+                             you                              You                              you                    NaN             56          NaN
+                   you-re-summer                    You're Summer                    you-re-summer                    NaN             57          NaN
         
 
 - The code list has the following concepts information:
@@ -103,7 +103,6 @@ root
 ├── Take Me to Your Heaven
 ├── The Worrying Kind
 ├── This Is My Life
-├── Too Late for Love
 ├── Undo
 ├── Vita vidder
 ├── Waterloo
