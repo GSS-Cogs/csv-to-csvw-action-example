@@ -4,8 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Entrant
         - Label: Entrant
-        - Issued: 2022-10-17T11:34:54.163354
-        - Modified: 2022-10-17T11:34:54.163354
+        - Issued: 2022-10-17T11:35:06.664372
+        - Modified: 2022-10-17T11:35:06.664372
         - License: None
         - Creator: None
         - Publisher: None
@@ -19,7 +19,7 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 54
+        - Number of Concepts: 55
         - Number of Duplicates: 0
         - First 10 Concepts: 
    Uri Identifier             Label          Notation  Parent Uri Identifier  Sort Priority  Description
@@ -35,7 +35,6 @@ benjamin-ingrosso Benjamin Ingrosso benjamin-ingrosso                    NaN    
            carola            Carola            carola                    NaN              9          NaN
         - Last 10 Concepts: 
         Uri Identifier                  Label               Notation  Parent Uri Identifier  Sort Priority  Description
-         roger-pontare          Roger Pontare          roger-pontare                    NaN             44          NaN
          sanna-nielsen          Sanna Nielsen          sanna-nielsen                    NaN             45          NaN
          siw-malmkvist          Siw Malmkvist          siw-malmkvist                    NaN             46          NaN
          ted-gardestad          Ted Gärdestad          ted-gardestad                    NaN             47          NaN
@@ -44,7 +43,8 @@ the-nova-and-the-dolls The Nova and the Dolls the-nova-and-the-dolls            
            tomas-ledin            Tomas Ledin            tomas-ledin                    NaN             50          NaN
          tommy-korberg          Tommy Körberg          tommy-korberg                    NaN             51          NaN
          tommy-nilsson          Tommy Nilsson          tommy-nilsson                    NaN             52          NaN
-     osten-warnerbring      Östen Warnerbring      osten-warnerbring                    NaN             53          NaN
+                 tusse                  Tusse                  tusse                    NaN             53          NaN
+     osten-warnerbring      Östen Warnerbring      osten-warnerbring                    NaN             54          NaN
         
 
 - The code list has the following concepts information:
@@ -104,6 +104,7 @@ root
 ├── Tomas Ledin
 ├── Tommy Körberg
 ├── Tommy Nilsson
+├── Tusse
 └── Östen Warnerbring
 
         
