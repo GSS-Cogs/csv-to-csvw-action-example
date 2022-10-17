@@ -4,8 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Entrant
         - Label: Entrant
-        - Issued: 2022-10-17T13:33:41.607045
-        - Modified: 2022-10-17T13:33:41.607045
+        - Issued: 2022-10-17T13:58:39.085440
+        - Modified: 2022-10-17T13:58:39.085440
         - License: None
         - Creator: None
         - Publisher: None
@@ -19,7 +19,7 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 53
+        - Number of Concepts: 52
         - Number of Duplicates: 0
         - First 10 Concepts: 
    Uri Identifier             Label          Notation  Parent Uri Identifier  Sort Priority  Description
@@ -28,23 +28,23 @@
        alice-babs        Alice Babs        alice-babs                    NaN              2          NaN
   anna-bergendahl   Anna Bergendahl   anna-bergendahl                    NaN              3          NaN
        arvingarna        Arvingarna        arvingarna                    NaN              4          NaN
-benjamin-ingrosso Benjamin Ingrosso benjamin-ingrosso                    NaN              5          NaN
-      bjorn-skifs       Björn Skifs       bjorn-skifs                    NaN              6          NaN
-            blond             Blond             blond                    NaN              7          NaN
-       brita-borg        Brita Borg        brita-borg                    NaN              8          NaN
-           carola            Carola            carola                    NaN              9          NaN
+      bjorn-skifs       Björn Skifs       bjorn-skifs                    NaN              5          NaN
+            blond             Blond             blond                    NaN              6          NaN
+       brita-borg        Brita Borg        brita-borg                    NaN              7          NaN
+           carola            Carola            carola                    NaN              8          NaN
+charlotte-nilsson Charlotte Nilsson charlotte-nilsson                    NaN              9          NaN
         - Last 10 Concepts: 
         Uri Identifier                  Label               Notation  Parent Uri Identifier  Sort Priority  Description
-         roger-pontare          Roger Pontare          roger-pontare                    NaN             43          NaN
-         sanna-nielsen          Sanna Nielsen          sanna-nielsen                    NaN             44          NaN
-         siw-malmkvist          Siw Malmkvist          siw-malmkvist                    NaN             45          NaN
-         ted-gardestad          Ted Gärdestad          ted-gardestad                    NaN             46          NaN
-               the-ark                The Ark                the-ark                    NaN             47          NaN
-the-nova-and-the-dolls The Nova and the Dolls the-nova-and-the-dolls                    NaN             48          NaN
-           tomas-ledin            Tomas Ledin            tomas-ledin                    NaN             49          NaN
-         tommy-korberg          Tommy Körberg          tommy-korberg                    NaN             50          NaN
-         tommy-nilsson          Tommy Nilsson          tommy-nilsson                    NaN             51          NaN
-     osten-warnerbring      Östen Warnerbring      osten-warnerbring                    NaN             52          NaN
+         roger-pontare          Roger Pontare          roger-pontare                    NaN             42          NaN
+         sanna-nielsen          Sanna Nielsen          sanna-nielsen                    NaN             43          NaN
+         siw-malmkvist          Siw Malmkvist          siw-malmkvist                    NaN             44          NaN
+         ted-gardestad          Ted Gärdestad          ted-gardestad                    NaN             45          NaN
+               the-ark                The Ark                the-ark                    NaN             46          NaN
+the-nova-and-the-dolls The Nova and the Dolls the-nova-and-the-dolls                    NaN             47          NaN
+           tomas-ledin            Tomas Ledin            tomas-ledin                    NaN             48          NaN
+         tommy-korberg          Tommy Körberg          tommy-korberg                    NaN             49          NaN
+         tommy-nilsson          Tommy Nilsson          tommy-nilsson                    NaN             50          NaN
+     osten-warnerbring      Östen Warnerbring      osten-warnerbring                    NaN             51          NaN
         
 
 - The code list has the following concepts information:
@@ -56,7 +56,6 @@ root
 ├── Alice Babs
 ├── Anna Bergendahl
 ├── Arvingarna
-├── Benjamin Ingrosso
 ├── Björn Skifs
 ├── Blond
 ├── Brita Borg

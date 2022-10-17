@@ -4,8 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Year
         - Label: Year
-        - Issued: 2022-10-17T13:33:41.594928
-        - Modified: 2022-10-17T13:33:41.594928
+        - Issued: 2022-10-17T13:58:39.072667
+        - Modified: 2022-10-17T13:58:39.072667
         - License: None
         - Creator: None
         - Publisher: None
@@ -19,7 +19,7 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 58
+        - Number of Concepts: 57
         - Number of Duplicates: 0
         - First 10 Concepts: 
  Uri Identifier  Label  Notation  Parent Uri Identifier  Sort Priority  Description
@@ -35,6 +35,7 @@
            1968   1968      1968                    NaN              9          NaN
         - Last 10 Concepts: 
  Uri Identifier  Label  Notation  Parent Uri Identifier  Sort Priority  Description
+           2008   2008      2008                    NaN             47          NaN
            2009   2009      2009                    NaN             48          NaN
            2010   2010      2010                    NaN             49          NaN
            2011   2011      2011                    NaN             50          NaN
@@ -44,7 +45,6 @@
            2015   2015      2015                    NaN             54          NaN
            2016   2016      2016                    NaN             55          NaN
            2017   2017      2017                    NaN             56          NaN
-           2018   2018      2018                    NaN             57          NaN
         
 
 - The code list has the following concepts information:
@@ -107,7 +107,6 @@ root
 ├── 2014
 ├── 2015
 ├── 2016
-├── 2017
-└── 2018
+└── 2017
 
         

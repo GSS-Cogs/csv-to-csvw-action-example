@@ -4,8 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Song
         - Label: Song
-        - Issued: 2022-10-17T13:33:41.611634
-        - Modified: 2022-10-17T13:33:41.611634
+        - Issued: 2022-10-17T13:58:39.090278
+        - Modified: 2022-10-17T13:58:39.090278
         - License: None
         - Creator: None
         - Publisher: None
@@ -19,7 +19,7 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 58
+        - Number of Concepts: 57
         - Number of Duplicates: 0
         - First 10 Concepts: 
        Uri Identifier                 Label              Notation  Parent Uri Identifier  Sort Priority  Description
@@ -32,19 +32,19 @@ alla-andra-far-varann Alla andra får varann alla-andra-far-varann              
              boogaloo              Boogaloo              boogaloo                    NaN              6          NaN
       bra-vibrationer       Bra vibrationer       bra-vibrationer                    NaN              7          NaN
         dag-efter-dag         Dag efter dag         dag-efter-dag                    NaN              8          NaN
-        dance-you-off         Dance You Off         dance-you-off                    NaN              9          NaN
+            den-vilda             Den vilda             den-vilda                    NaN              9          NaN
         - Last 10 Concepts: 
                   Uri Identifier                            Label                         Notation  Parent Uri Identifier  Sort Priority  Description
-                      stjarnorna                       Stjärnorna                       stjarnorna                    NaN             48          NaN
-          take-me-to-your-heaven           Take Me to Your Heaven           take-me-to-your-heaven                    NaN             49          NaN
-               the-worrying-kind                The Worrying Kind                the-worrying-kind                    NaN             50          NaN
-                 this-is-my-life                  This Is My Life                  this-is-my-life                    NaN             51          NaN
-                            undo                             Undo                             undo                    NaN             52          NaN
-                     vita-vidder                      Vita vidder                      vita-vidder                    NaN             53          NaN
-                        waterloo                         Waterloo                         waterloo                    NaN             54          NaN
-when-spirits-are-calling-my-name When Spirits Are Calling My Name when-spirits-are-calling-my-name                    NaN             55          NaN
-                             you                              You                              you                    NaN             56          NaN
-                   you-re-summer                    You're Summer                    you-re-summer                    NaN             57          NaN
+                      stjarnorna                       Stjärnorna                       stjarnorna                    NaN             47          NaN
+          take-me-to-your-heaven           Take Me to Your Heaven           take-me-to-your-heaven                    NaN             48          NaN
+               the-worrying-kind                The Worrying Kind                the-worrying-kind                    NaN             49          NaN
+                 this-is-my-life                  This Is My Life                  this-is-my-life                    NaN             50          NaN
+                            undo                             Undo                             undo                    NaN             51          NaN
+                     vita-vidder                      Vita vidder                      vita-vidder                    NaN             52          NaN
+                        waterloo                         Waterloo                         waterloo                    NaN             53          NaN
+when-spirits-are-calling-my-name When Spirits Are Calling My Name when-spirits-are-calling-my-name                    NaN             54          NaN
+                             you                              You                              you                    NaN             55          NaN
+                   you-re-summer                    You're Summer                    you-re-summer                    NaN             56          NaN
         
 
 - The code list has the following concepts information:
@@ -60,7 +60,6 @@ root
 ├── Boogaloo
 ├── Bra vibrationer
 ├── Dag efter dag
-├── Dance You Off
 ├── Den vilda
 ├── Det blir alltid värre framåt natten
 ├── Det börjar verka kärlek,banne mig
