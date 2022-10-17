@@ -4,23 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Song
         - Label: Song
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        - Issued: 2022-10-14T16:20:20.396366
-        - Modified: 2022-10-14T16:20:20.396366
-=======
-        - Issued: 2022-10-17T10:11:48.273685
-        - Modified: 2022-10-17T10:11:48.273685
->>>>>>> Stashed changes
-=======
-        - Issued: 2022-10-17T10:17:12.614234
-        - Modified: 2022-10-17T10:17:12.614234
->>>>>>> Stashed changes
-=======
-        - Issued: 2022-10-17T10:31:14.495472
-        - Modified: 2022-10-17T10:31:14.495472
->>>>>>> Stashed changes
+        - Issued: 2022-10-17T11:02:07.897022
+        - Modified: 2022-10-17T11:02:07.897022
         - License: None
         - Creator: None
         - Publisher: None

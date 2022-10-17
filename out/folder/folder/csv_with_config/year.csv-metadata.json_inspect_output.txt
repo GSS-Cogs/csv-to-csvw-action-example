@@ -4,23 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Year
         - Label: Year
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        - Issued: 2022-10-14T16:20:20.376625
-        - Modified: 2022-10-14T16:20:20.376625
-=======
-        - Issued: 2022-10-17T10:11:48.260253
-        - Modified: 2022-10-17T10:11:48.260253
->>>>>>> Stashed changes
-=======
-        - Issued: 2022-10-17T10:17:12.600685
-        - Modified: 2022-10-17T10:17:12.600685
->>>>>>> Stashed changes
-=======
-        - Issued: 2022-10-17T10:31:14.483440
-        - Modified: 2022-10-17T10:31:14.483440
->>>>>>> Stashed changes
+        - Issued: 2022-10-17T11:02:07.881666
+        - Modified: 2022-10-17T11:02:07.881666
         - License: None
         - Creator: None
         - Publisher: None
